@@ -10,5 +10,6 @@ class Hash
         end
     end
     return output_array.compact
+    binding.pry
   end
 end
