@@ -5,7 +5,7 @@ class Hash
     map do |k, v|
       if arguments == v
         return k
-binding.pry
+#binding.pry
     end
 
   end
