@@ -9,7 +9,7 @@ class Hash
            output_array << v
         end
     end
-    return output_array.compact
+    return output_array
     binding.pry
   end
 end
