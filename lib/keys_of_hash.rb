@@ -2,7 +2,7 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     output_array = []
-    arguments.collect do |k, v|
+    arguments.each do |k, v|
         if arguments.include?(v)
           output_array << k
         else
