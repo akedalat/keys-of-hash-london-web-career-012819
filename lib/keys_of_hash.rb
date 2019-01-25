@@ -4,10 +4,11 @@ class Hash
     output_array = []
     arguments.collect do |k, v|
         if arguments.include?(v)
-          return output_array << k
+          output_array << k
         else
-           return output_array << arguments
+           output_array << v
         end
     end
+    return output_array.compact
   end
 end
