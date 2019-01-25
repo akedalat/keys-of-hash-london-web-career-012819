@@ -4,7 +4,6 @@ class Hash
     map do |k, v|
 
     end
-        i
 
   end
 end
