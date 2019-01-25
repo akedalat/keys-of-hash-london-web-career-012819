@@ -6,7 +6,7 @@ class Hash
       if arguments == v
         return k
 #binding.pry
+      end
     end
-
   end
 end
