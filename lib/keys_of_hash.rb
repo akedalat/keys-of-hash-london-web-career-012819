@@ -1,8 +1,8 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
-binding.pry
-    arguments.each do |k, v|
+
+    arguments.collect do |k, v|
 binding.pry
     end
   end
