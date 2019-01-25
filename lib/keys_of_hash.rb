@@ -6,7 +6,7 @@ class Hash
         if arguments.include?(v)
           return output_array << k
         else
-           return output_array << k
+           return output_array << arguments
         end
     end
   end
