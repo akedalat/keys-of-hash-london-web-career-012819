@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
     output_array = []
     map do |k, v|
-      arguments.include?(v)
+      if arguments.include?(v)
         output_array << k
 #binding.pry
       end
