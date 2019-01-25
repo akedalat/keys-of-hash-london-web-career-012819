@@ -5,7 +5,6 @@ class Hash
     map do |k, v|
       if arguments.include?(v)
         output_array << k
-#binding.pry
       end
     end
     binding.pry
