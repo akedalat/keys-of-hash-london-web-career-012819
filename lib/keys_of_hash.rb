@@ -4,9 +4,9 @@ class Hash
     output_array = []
     arguments.collect do |k, v|
         if arguments.include?(v)
-          output_array << k
+          return output_array << k
         else
-          return nil
+           return nil
         end
     end
   end
