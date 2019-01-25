@@ -4,7 +4,7 @@ class Hash
     output_array = []
     map do |k, v|
       if arguments == v
-        return k
+        output_array << k
 #binding.pry
       end
     end
