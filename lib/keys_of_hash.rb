@@ -1,15 +1,10 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
-    output_array = []
-    arguments.each do |k, v|
-        if arguments.include?(v)
-          output_array << k
-        else
-           output_array << v
-        end
+    map do |k, v|
+
     end
-    return output_array
-    binding.pry
+        i
+    
   end
 end
