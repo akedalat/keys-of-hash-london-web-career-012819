@@ -8,6 +8,7 @@ class Hash
 #binding.pry
       end
     end
+    binding.pry
     return output_array
   end
 end
