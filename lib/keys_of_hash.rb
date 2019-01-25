@@ -7,7 +7,6 @@ class Hash
         output_array << k
       end
     end
-    #binding.pry
     return output_array
   end
 end
