@@ -5,6 +5,6 @@ class Hash
 
     end
         i
-    
+
   end
 end
