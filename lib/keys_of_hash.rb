@@ -1,11 +1,12 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
+    output_array = []
     arguments.collect do |k, v|
         if arguments.include?(v)
-          return k
+          output_array << k
         else
-          return v
+          return nil
         end
     end
   end
